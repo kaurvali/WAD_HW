@@ -51,22 +51,59 @@ nav div.search-container>button {
 }
 
 main div.post-area {
-    margin: 50px auto;
-    display: flex;
+    margin: 0px auto;
+    padding: 50px 0;
+    display: grid;
     flex-flow: row nowrap;
     justify-content: center;
     width: 90%;
-    max-width: 1100px;
-    height: 100vh;
+    max-width: 900px;
+    height: 100%;
     background-color: white;
 }
 
 main div.post {
+    margin: 10px auto;
     width: 80%;
     height: fit-content;
+    box-shadow: 0px 0px 9px gray; // Third value adds blur
+}
+main div.post:first-child{
+  margin-top: 70px;
+}
+
+main div.post div.content img {
+    width: 100%;
+    height: auto;
 }
 
 main div.post div.header img {
+    margin-top: 6px;
+    margin-left: 6px;
     height: 48px;
     width: auto;
+}
+main div.post div.footer input{
+    height: 48px;
+    width: auto;
+    font-size: 1.3em;
+    margin: 10px;
+
+}
+main div.post div.footer input:hover{
+    opacity: 0.5;
+}
+
+main div.post div.header p{
+    float: right;
+    color: gray;
+    margin-right: 6px;
+}
+
+main div.post div.desc p{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 15px 10px;
+
+
 }
