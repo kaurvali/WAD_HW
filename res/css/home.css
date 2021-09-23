@@ -31,13 +31,13 @@ nav div.search-container>input {
     border: 1px solid #e0e0e0;
 }
 
-nav div.search-container>button:hover {
+nav div.search-container a>button:hover {
     color: black;
     background-color: white;
     transition-duration: 0.2s;
 }
 
-nav div.search-container>button {
+nav div.search-container a>button {
     box-sizing: border-box;
     height: 30px;
     width: 25%;
@@ -66,10 +66,12 @@ main div.post {
     margin: 10px auto;
     width: 80%;
     height: fit-content;
-    box-shadow: 0px 0px 9px gray; // Third value adds blur
+    box-shadow: 0px 0px 9px gray;
+    /*Third value adds blur */
 }
-main #first_post{
-  margin-top: 70px;
+
+main #first_post {
+    margin-top: 70px;
 }
 
 main div.post div.content img {
@@ -83,27 +85,26 @@ main div.post div.header img {
     height: 48px;
     width: auto;
 }
-main div.post div.footer input{
+
+main div.post div.footer input {
     height: 48px;
     width: auto;
     font-size: 1.3em;
     margin: 10px;
-
 }
-main div.post div.footer input:hover{
+
+main div.post div.footer input:hover {
     opacity: 0.5;
 }
 
-main div.post div.header p{
+main div.post div.header p {
     float: right;
     color: gray;
     margin-right: 6px;
 }
 
-main div.post div.desc p{
+main div.post div.desc p {
     font-size: 1.5em;
     font-weight: 600;
     margin: 15px 10px;
-
-
 }
