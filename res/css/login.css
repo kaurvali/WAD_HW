@@ -29,13 +29,13 @@ div.form>input {
     border: 2px solid rgb(170, 170, 170);
 }
 
-div.form a>button:hover {
+div.form form>button:hover {
     color: black;
     background-color: white;
     transition-duration: 0.2s;
 }
 
-div.form a>button {
+div.form form>button {
     box-sizing: border-box;
     border-radius: 4px;
     height: 40px;
@@ -50,12 +50,12 @@ div.form a>button {
     margin-left: 70px;
 }
 
-div.form a+a {
+div.form form+a {
     text-align: center;
     margin-top: 5px;
 }
 
 div.form a~a {
-  font-size: 14px;
-  color: rgb(123, 196, 255);
+    font-size: 14px;
+    color: rgb(123, 196, 255);
 }
