@@ -10,13 +10,25 @@ div.login {
     box-shadow: 0px 0px 10px 1px rgb(65, 65, 65);
 }
 
+img.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ h2.header {
+     transform: translate(0%, -40%);
+     text-align: center;
+     line-height: 2.5;
+     content: '\a';
+     white-space: pre-line;
+ }
+
 div.form {
     display: flex;
     margin: 0px auto;
     width: 200px;
     flex-direction: column;
-    justify-content: center;
-    align-content: space-between;
+    transform: translate(0%, -50%);
 }
 
 div.form>input {
