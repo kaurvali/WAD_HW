@@ -53,6 +53,7 @@ nav div.search-container form>button {
 main div.post-area {
     margin: 0px auto;
     padding: 50px 0;
+    padding-top: 70px;
     display: grid;
     flex-flow: row nowrap;
     justify-content: center;
@@ -68,10 +69,6 @@ main div.post {
     height: fit-content;
     box-shadow: 0px 0px 9px gray;
     /*Third value adds blur */
-}
-
-main #first_post {
-    margin-top: 70px;
 }
 
 main div.post div.content img {
