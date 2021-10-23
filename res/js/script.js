@@ -1,5 +1,6 @@
 $(function() {
-    $.get("https://api.npoint.io/6672693f0dcabafd73cf", function(posts) {
+    // Using extension Live Server in VSCode
+    $.get("/res/json/data.json", function(posts) {
         for (post of posts) {
             let div_main = $('<div class="post">');
 
