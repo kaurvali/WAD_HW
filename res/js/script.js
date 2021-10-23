@@ -11,7 +11,10 @@ $(function() {
             div_header.append(date);
 
             let div_content = $('<div class="content">');
-            // TODO - add image
+            if (post.img != "") {
+                let img = $('<img src="/res/images/' + post.img + '" />');
+                div_content.append(img)
+            }
 
             let div_desc = $('<div class="desc">');
             let text = $('<p>').text(post.text);
