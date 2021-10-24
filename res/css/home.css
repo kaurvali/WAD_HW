@@ -27,7 +27,7 @@ nav div #account {
     float: right;
 }
 
-nav div.search-container form > input {
+nav div.search-container form>input {
     box-sizing: border-box;
     height: 30px;
     width: 75%;
@@ -36,13 +36,13 @@ nav div.search-container form > input {
     border: 1px solid #e0e0e0;
 }
 
-nav div.search-container form > button:hover {
+nav div.search-container form>button:hover {
     color: black;
     background-color: white;
     transition-duration: 0.2s;
 }
 
-nav div.search-container form > button {
+nav div.search-container form>button {
     box-sizing: border-box;
     height: 30px;
     width: 25%;
