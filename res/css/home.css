@@ -6,12 +6,17 @@ nav {
     flex-flow: row nowrap;
     background-color: #ffffff;
     align-items: center;
+    filter: drop-shadow(0 0px 3px rgb(119, 119, 119));
 }
 
 nav div {
     height: 30px;
     flex-grow: 1;
     padding: 10px;
+}
+
+nav div input {
+    height: 30px;
 }
 
 nav div img {
@@ -22,7 +27,7 @@ nav div #account {
     float: right;
 }
 
-nav div.search-container form>input {
+nav div.search-container form > input {
     box-sizing: border-box;
     height: 30px;
     width: 75%;
@@ -31,13 +36,13 @@ nav div.search-container form>input {
     border: 1px solid #e0e0e0;
 }
 
-nav div.search-container form>button:hover {
+nav div.search-container form > button:hover {
     color: black;
     background-color: white;
     transition-duration: 0.2s;
 }
 
-nav div.search-container form>button {
+nav div.search-container form > button {
     box-sizing: border-box;
     height: 30px;
     width: 25%;
@@ -104,4 +109,27 @@ main div.post div.desc p {
     font-size: 1.5em;
     font-weight: 600;
     margin: 15px 10px;
+}
+
+.dropdown-content p {
+    margin: 4px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    filter: drop-shadow(0 0px 3px rgb(119, 119, 119));
+    margin-top: 40px;
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    padding-top: 5px;
+    right: 0;
+    z-index: 1;
+}
+
+.show {
+    display: block;
 }
